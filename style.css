@@ -1,0 +1,183 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html,body {
+    margin:0;
+    padding:0;
+    
+}
+
+/* Colour matching the top of the page with the Jumbotron */
+#PageTop {
+    background-image: linear-gradient(rgb(36, 123, 123), rgb(68, 161, 160), rgb(120, 205, 215));
+}
+
+.navbar {
+    background-image: linear-gradient(rgb(13, 92, 99, 1), rgba(13, 92, 99, 0)) ;
+    font-size: large;
+    /* text-shadow:
+		-1px -1px 0 rgb(13, 92, 99),
+		1px -1px 0 rgb(13, 92, 99),
+		-1px 1px 0 rgb(13, 92, 99),
+		1px 1px 0 rgb(13, 92, 99); */
+}
+
+.navbar-nav {
+    color: rgb(255, 255, 250);
+}
+
+.nav-link {
+    outline-width: thick;
+    font-weight: 300;
+}
+
+
+/* Jumbotron Styling */
+#head_jumbotron img{
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 15px 50px 30px;
+    padding-top: 15px;
+    position: static;
+}
+
+#head_jumbotron h1{
+    font-size: 4rem;
+}
+
+#head_jumbotron h3 {
+    font-size: 2rem;
+}
+
+#head_jumbotron {
+    width: 100%;
+   
+}
+
+#jumbo_row {
+    height: 350px;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgb(13, 92, 99), rgb(36, 123, 123), rgb(68, 161, 160), rgb(120, 205, 215));
+    color: rgb(255, 255, 250);
+    box-shadow: 5px 10px 18px 
+}
+#jumbo_icons{
+    margin-top: 25px;
+}
+
+
+#jumbo_icons svg.svg-inline--fa {
+    font-size: 1.7rem;
+    color: rgb(255, 255, 250);
+}
+
+#jumbo_icons svg.svg-inline--fa:hover {
+    font-size: 2rem;
+    color: rgb(36, 123, 123);
+}
+
+#jumbo_icons span {
+    margin: 15px;
+}
+
+/* About Me Section Styling */
+#AboutMe {
+    margin-top: 75px;
+}
+
+#skills_certs {
+padding-bottom: 100px;
+padding-left: 20px;
+padding-right: 20px;
+margin: auto;
+}
+
+/* Skills Section Styling */
+#Skills {
+    margin-top: 120px;
+    
+
+}
+
+#Skills svg.svg-inline--fa {
+    font-size: 5rem;
+    margin: auto;
+    color: rgb(13, 92, 99);
+    margin: 10px;
+
+}
+
+#Skills svg.svg-inline--fa:hover {
+    color: rgb(68, 161, 160) !important ;
+    font-size: 5.2rem;
+    
+}
+/* Certificate Section Styling */
+
+#Video {
+    margin-top: 120px;
+    padding-left: 40px;
+}
+
+#Video video{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    
+}
+
+/* Projects Section Styling */
+
+#Projects {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.btn {
+    background-color: rgb(36, 123, 123);
+}
+
+.btn:hover {
+    background-color: rgb(68, 161, 160);
+}
+/* Footer Styling */
+
+footer {
+    width: 100%;
+    height: 50px;
+    padding: 8px,16px;
+    margin: 0;
+    background-image:linear-gradient(to top, rgb(13, 92, 99), rgb(36, 123, 123), rgb(68, 161, 160), rgb(120, 205, 215));
+    color: rgb(255, 255, 250);
+    flex-flow: row nowrap;
+}
+
+#footer_text {
+    margin-top: 12px;
+    margin-left: 8px;
+}
+
+#contact_icons{
+    position: absolute;
+    right: 0px;
+    margin-top: 12px;
+}
+
+
+#contact_icons svg.svg-inline--fa {
+    font-size: 1.7rem;
+    color: rgb(255, 255, 250)
+}
+
+#contact_icons svg.svg-inline--fa:hover {
+    font-size: 2rem;
+    color: rgb(36, 123, 123)
+}
+
+#contact_icons span {
+    margin: 10px;
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--fontawesome-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--OG CSS file-->
+    <link rel="stylesheet" href ="style.css">
+    <!--Tab Icon (<a href="https://icons8.com/icon/66755/circled-r">Circled R icon by Icons8</a>)-->
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAHwUlEQVRoge2aa2wU1xXHf2dm7d21vWtjSiANQi0hoFSCAKVqCmkKJGl4Va1abarghxbMI6U4Uksa0VSVLLUItXkoqSNTwAbE2iCxUr8AJSWiIQHxSBBVSNRQXlUiUkFCbXnWxuxrTj/srlk/1t6H7eZD/tJKd87cOef/15299557Br7EFwsyUo68vrpKdfIosAD4BnA/cA9QmuzSjehNVK4B/8SWkwZF73Tu29YxEvELE+L3u7xx02crNQKPAUaOHuIKxwyVgFXpDtLYGM6XSn5CfD63p7h8A6KbgHuT1jDCKVV5S9APVORfZrzoRmdZvAugvMssi5vRSaI6Q5VZIiwCvgM4k8//B/TlkMNuYs+eO6MuxFtdt1zhT8DUpOkcsN0RNoMdwR2dufiq8Psr4lHDhyHrUb6ZNF8V1XqrbdeRXHxlL8Tvd3li5qvAegBFzptq/7qzbdfRXAJmgre6bgmwVWF2kliT5YhvynZ0shJS6vdPkpjjsKBzFW4bqputSKiJYDBeAPeB8PlMr9O7UZGtoG7gnB2XFd37m28O9+iwQspr1nzdVn0TuB/Ri4r4ugItH44E70worV0zy7A1CEwHrhgi3+8MNP97qGeGFFK2atUEiRonEw71PeKOZaH9O26NIOeMKF/5s3G2ETlIYjq/ZjviC7r37LmRqX/m6dLvdxE13wCmo5wukeiisRIB0LlvW0eJRJ4EzgJTjZh5EL/flal/RiGemPmqoHMRvSgRVtwMBLpHg/BQuBkIdGNElwOXgHnemPlypr6DvlrJKfaQwm2Eb4/2f2I4JP4znAF1Cyy1Wlve6N9n4Ij4fO7kOoGhuvn/LQKge2/zBVH7BQCFxsFesQFCPE7vz4Gpipy3IqGmMeCZFaxPp7wOvA9M80aNZ/rf7yukvt4J/ALAhM0jvk4UguMNMRFJjIrI8/1HxZF+4W3v8anwVeBcZ2vzm7nEKauuaxTYmOF2FLip6AlD9DUrsPtsLr5TsALNR8qq15wXdK43av7Ygn2pe31GxBatTTa35xNoCBQBkwV5WtU45amuey5PPwq6A0CFmvQbvUK8vrpKgcVA2BE2g/kyFuRAqLVF0n8SZrytPA6cScb8Y2lV3WP5+Dft4gNABHh8nG9d+QAhyaTIRDiV6y52OFjBlvbutpZjobC1GNGLgBhCXqOSSMTkNOCIOWPfS9nvvlqijwCoylsF8s6MYLAHlZbk1fx83QgcT7SMR1K2u0JUHgQQmwv5BsgGKnycbJbS0JBrRpnwofb7AIj9YMqW7ugBADW5lCfHrCDam5B9QkODnY8PdZgJjioPpGzpQioBRCKf5clxWEzwbShDSS5mmtP0ng6JSCo/GZ+ypa8jHoBQT08o3wAAipaVr1w9Nd0WM/CYasy8Y9z5DSpfA0KGzR/yjRH6ijPk6bjdyxn6LYgjhGW2IcvSDQagoqACQjsqP+rc13JtJIOmCwkB4z1utycE/y3AZzfQPzWdAjgQPVRkh6va29qsAvzjuRX2YAIJzkBfIe3AeNXieyhAiCCHrdbmn6bbyqpWvyYiz6Iyz3A6NV/fKWixTpTELrCXZ/qf/TKAxJleaKD+ENvxO8ACJkXC8nzBDm2dkWz1zrDpC+JHACr6UMGB+iG0f8ctRV4CsIVfuqvWTC7En6HMSrTkYq+t967KSQAxWFhIkEzoCne+BFwXKHGI/r4QX4ouSjTknZStV4hhF78NxFHmV/j9FYUEGhTBYI+Kbkle1ZTU1s3Jx43XV1cJPAzEirg9UEjnvm0dCscAZzxq+ArhnAldd0I7gY8Aw7R5JR8ftkufAoqBo+mzX5+9joHuTTRkfd5sh0IwGFf0t8mrhZ6qtSty9CCorEs0pLXvjXTU1zs9HT1XQe8TMZZYgZ1/y5v0KMBTtXYFYh8ErofGlUxLL0P03X02NobBfgXAVnsrPp85tlSHwMIGB2JvARCRF/vXUgZso0MOuwm4KjDH6/RmysHHHJ7JnzwLzAIuWRXuAan44Ad0VauXqshfQXpsg4e79zaPao4yHEpXrp1tGPZpwGWoPjlYKWPQxMZq23VEoAnUbdga9NTWjh+s31igbNWqCYZhBwGXijRmqsdkzNAsR3wTiWrUdOyiwxNrakoz9R0tTPBtKJOYcQiYhvBuV4X7V5n6ZlNWOAHMAH1Pi3R51+7dn4804cGQqBLrQZD5wFU7LguGKvgMmTN37d79uSGyFLgC8i2JGidLq1eP+F6sP0pXrp2tTs4mRVw2HfHHh6taZVd6e3rNRMPUQ8A8kB5R+wXr0ymvc7whNhLEe7GwwZGYnWQL4EJ4Vyn6QVfgz8Om31mtE9EPz3dH5j4UcNlGJTAfkSVOr/VD18w5H4c/+MeVQvkD4q2uW17stQ6A1AIOFWnsqihZGdnZlFUSlk95eolCIzANEtVd0B2mXXwg168YvL66StulT6GyTiC1ibxsqG7MtVqc3wcDfr/LGzWeUTGeA70vaY0AZxT9uygX1GFeEg3fSB1meNxuj2rRvSDTUXumIItJ7GKLk89fF5EXrQr39ny+gCjsE476eqe3/fZPkgfKT5Dlq5qGGHBUkFZrnPsvY/8JxyAY51tXHnPFH0Xlu8kTwGmoTODukU0I+IzEDHgR0RNF9p23Cz2I+BJfVPwPVIfhv7bT4ZEAAAAASUVORK5CYII=">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renae St Louis</title>
+</head>
+<body>
+    <div id="PageTop">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav nav-pills nav-fill">
+            <a class="navbar-brand" href="#PageTop">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAABmJLR0QA/wD/AP+gvaeTAAAFU0lEQVRoge2aS4wVRRiFv5rHnYsDAoPAEIlBUAhGRkxMfCHyiMpr4UYTUFypEBOEIHFjXOnGiC6IENG4McbEvcSIQRRxAB8omjgwAyQKEiEKEWSGrr7c46Lrzq1hmPuo7gEW/EmnuqurzjnV9ei//2q4bteWmayAJLWBnQs8CNwBZhowAWh1Rc4DJ0FHgd+A3ZDbZYw5k5WGYJOUl+xKyW6X7EXJqs6jIEWfS9HTklrSaAnqEUkjoPACFF8CM8llR0AnmJ1Q/BU4BLm/gP/c/ZFg24EZ0NABmg/cD7gGmBPAW9C0xRhzIUWbam1EYalkj3hP9XvJPitpdP1YGiPZ5yT7g4d3WCosHg7tJdK8ZN/1CH+U4kezw48XSfYnD3+zpHxW+I5E7YlwK8mel+waSY2ZkiQ8jZJdK9necm9rYkbgfbcm3W0l2S4pujMT4IqcUYdkDznOHqnv1pSAGu8Bfifppoy01sI9VrK7HfcRSe2hQHlvOHVKaq1eK1uT1CrZvd4wq3/OeBO7K3nZXR2TNM4bFZvrrFxYWp7Ywz8nquuJOsoLQLyoxkoa4b0n1gyzxppNsuvKk7+GISbFG8rvieyX2FCT1CTZn522ddUKt0jxn64LH7lCGms2qbAk0RadqNgrifOWrBD1k9h3KjiHVoqPSfZjyd4b3hCZ8koarfDvNQwsap5xJ1tDyYawZtBkYDnQKcUbQkCMMQLec5crL1tIUlviVtsLYQ5gf498cnnseKFk97gyRSleWC+Hwxor2Uiysa/T6xE7F2gEOo0x/4aQDGXGmNPGNO+A5gXAQcBAMbRXzgB7gCaIHi7lew0xc1y6M1xyVRF9YD5wVw+EI+krhzGnlOM1RDOTtPhLOEEtVvzdnbRKaqhYdGg74NKZpQy/R253J92B4DVaw1R38ocxphgI4jT2ax6wajl/KncqELyqSRoJWu0uvwhHyp10J+NKOU3e3VEuPRdOAKCR0oWpA/MaRoFmQfwKMCXhKL6RgqSksaR5QEMyMrMkOQbll05Og3ncmPzRLFn9hpwj6apRwD8pMF38aoDdknDpU8g9ZYw5mwIfLjN6/DlyOknshJQk24zJTfMPYIu7dw+glPiALX3H9z9wf/ntcSfT0xNdas2vAWfBtIN9OQPAGUli+ldYf/ntcll3ZUA0wIwxf4PZ6K7WS72TU0J2JEnxYCnD75HdLp2XkmQIa9oI5jhwAzS9ng7LzE/Sxl2DbjlnrOQ0jqkXupLT6JVZ7cpclOzd9XI4nW2e03hjKb+/RxJnTDuAFoifCCGpbs3vA12O9+0wjPhJIAfa7q9+l/o6H7p0VRhJZTPGXAS96i7nSYVl9dSXZIDn3eVHlQq2SPFx96n7WJjc4TOpsMxpO1Z1G0KK17txvP8aDD4ccNperKVC3ov1rr0CGmsy7wEfqnlTSCosdpV6pahjmDXWoMfOlmyfG1b1bWUk+xP9T2Bc9RrDYy6Q3uO0bAoByLvdKCWB5KsSxB4p2X1Ow77gfUb3NA562wrjM9ZaibtNst+Wt+NSbvi4jZ6e8jCzmftigzntbI+zW+qbkhGwJnrDrDcJKCvzj7JkiY3Xlye23Scp7WfFIJK8twAoCShns/uahEILS733hCS7Ke3eexXSeJHX7S5qb1dJGls/ltqcI7nfw+sO2S0O/WEgD/FqMBtAN7tsC+wF86WLjXW7Hwa8QIGdBEyHhlmgBcB9QM5JOQ56E5q3GmOiEF3Blvhm0Qop+sx9AgwVjR/qiKVomxQtTzuMsvypZjREc8E8BMwEcxswnoGBglNgDidfdvoGWr7OIBBx3a5J+x9+awIRpbkFHgAAAABJRU5ErkJggg==" width="30" height="30" alt="" loading="lazy">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#skills_certs">Skills</a>
+                <a class="nav-link" href="#Projects">Projects</a>
+                <a class="nav-link" href="#footer">Contact</a>
+              </div>
+            </div>
+          </nav>
+
+        <div id="head_jumbotron">
+            <div class="jumbotron text-center">
+                <div class="row" id ="jumbo_row">
+                    <div class="col-8 align-self-center">
+                        <h1 style="font-size:7vw;">Renaé St Louis</h1>
+                        <h3 style="font-size:3vw;">Trainee Cloud Practitoner</h3>
+                        <div class="icons" id="jumbo_icons">
+                          <span><a href="https://www.linkedin.com/in/renae-st-louis-247789195/" target=”_blank”><i class="fab fa-linkedin"></i></a></span>
+                          <span><a href="https://github.com/renae-stl" target=”_blank”><i class="fab fa-github-square"></i></a></span>
+                          <span><a href="mailto:renaestlouis@gmail.com" target=”_blank”><i class="fas fa-envelope-square"></i></a></span>
+                        </div>
+                    </div>
+
+                    <div class="col-3 align-self-center">
+                        <!--Space for photo-->
+                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQF3FTWdbMkPHw/profile-displayphoto-shrink_400_400/0?e=1611187200&v=beta&t=DIDE2pZx5_nEQUffpH40xYILbSQHP23LKIyWffxz3NU" alt="Photo Description">
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="AboutMe">
+        <div class="row text-justify">
+            <div class="col-sm-12 col-md-6">
+                <p>My interest in pursuing a career in tech began with an online course for web development that I started in my free time. I had always had an interest in STEM subjects growing up and originally wanted to be a research scientist! Starting out I used the basics of HTML, CSS and Bootstrap to create fun webpages for myself, this developed into a drive to learn new coding languages, understand the principles that underpin internet technologies and explore cloud computing.<br><br> I have thoroughly enjoyed learning the concepts of the AWS cloud and I am now keen to consolidate my knowledge, increase my experience and expand my skill set within the tech space.</p>
+                  
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <p>I am a strong communicator and enjoy making connections with people, this skill helps to facilitate my leadership capabilities which I was able to demonstrate when chairing a regular online study group throughout an AWS re/Start programme. This group helped to facilitate work on larger team projects, created a social space for the classmates to form meaningful relationships and ultimately led to more effective teamwork and collaboration within the class environment.</p>
+                <strong>(Watch the video below for more detail)</strong> 
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <div class="container row " id="skills_certs">
+        <div class="container col-12 col-sm-12 col-md-12 col-lg-6" id="Skills">
+            <div class="row text-center justify-content-center align-items-center ">
+                <div class="col-6 col-sm-6 col-md-4">
+                    <i class="fab fa-python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <i class="fab fa-html5"></i>
+                    <p>HTML</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <i class="fas fa-database"></i>
+                    <p>SQL</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <i class="fab fa-css3"></i>
+                    <p>CSS</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <i class="fab fa-linux"></i>
+                    <p>Linux</p>
+                </div>
+                <div class="col-6 col-sm-6 col-md-4">
+                    <i class="fab fa-aws"></i>
+                    <p>AWS</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="container col-sm-12 col-lg-6" id="Video">
+          <video class="col-sm-12 justify-content-center" controls poster="VideoThumbnail.jpg" onclick="play();">
+            <source src="Study Group.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+            
+        </div>
+        
+    </div>
+  <div class="container"><hr></div>
+    <div class="container justify-content-center" id="Projects">
+      <div class="row justify-content-between justify-content-center">
+        <div class="card col-md-12 col-lg-3" style="width: 18rem;">
+          <img src="pygame.jpg" class="card-img-top" alt="Space Invaders">
+          <div class="card-body">
+            <p class="card-text text center">I am working to create a sapce invaders game using Python based on the instructions in the<a href="https://www.amazon.co.uk/Python-Crash-Course-Hands-Project-Based/dp/1593276036"> Python Crash Course</a> book by Eric Matthes</p>
+            <a class="btn btn-primary" href="#" role="button"><s>Link</s></a>
+          </div>
+        </div>
+        <div class="card col-md-12 col-lg-3" style="width: 18rem;">
+          <img src="wild-rides.jpg" class="card-img-top" alt="Wild Rydes">
+          <div class="card-body">
+            <p class="card-text">I took part in an AWS Serverless Workshop to create a Unicorn ride ordering app.</p>
+            <a class="btn btn-primary" href="http://www.wildrydes.com/" role="button">Link</a>
+          </div>
+        </div>
+        <div class="card col-md-12 col-lg-3" style="width: 18rem;">
+          <img src="blog1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">As part of a group I am working to create an AWS hosted website for Generation Alumni. <br> Updates to follow...</p>
+            <a class="btn btn-primary" href="#" role="button"><s>Link</s></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <footer>
+      <div class="container row" id="Contact">
+        <div id="footer_text">
+          <p style="font-size: small;"><em>Created by Renaé</em></p>
+        </div>
+        <div class="icons col-2 justify-content-center" id="contact_icons">
+          <span><a href="https://www.linkedin.com/in/renae-st-louis-247789195/" target=”_blank”><i class="fab fa-linkedin"></i></a></span>
+          <span><a href="https://github.com/renae-stl" target=”_blank”><i class="fab fa-github-square"></i></a></span>
+          <span><a href="mailto:renaestlouis@gmail.com" target=”_blank”><i class="fas fa-envelope-square"></i></a></span>
+        </div>
+      </div>
+    </footer>
+
+    <!--<div class="row col-sm-12 footer" id="footer">       
+          <p> Contact me: renaestlouis@gmail.com</p>
+    </div>!-->
+
+
+    <!--Btstrp JS/JQery forms-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
